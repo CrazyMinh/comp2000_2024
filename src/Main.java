@@ -6,7 +6,19 @@ public class Main extends JFrame {
         System.out.println("Red Vs. Blue");
         Main window = new Main();
     }
-    class Canvas extends JPanel {
+    public class Grid extends JPanel {
+        public Grid() {
+            int a; //x coordinate of the grid object
+            int b; //y coordinate of the grid object
+        }
+    
+    public class Cell extends JPanel {
+        public Cell() {
+            Cell[] a = new Cell[400];
+            }
+        }
+    }
+    public class Canvas extends JPanel {
         public Canvas() {
             setPreferredSize(new Dimension(720, 720));
         }
